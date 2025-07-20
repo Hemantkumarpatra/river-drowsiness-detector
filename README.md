@@ -32,3 +32,23 @@ This is a real-time drowsiness detection system that monitors a driver's eyes us
 git clone https://github.com/Hemantkumarpatra/driver-drowsiness-detector.git
 cd driver-drowsiness-detector
 
+### 2. Create Virtual Environment
+python -m venv venv
+.\venv\Scripts\activate
+
+### 3.Install dependencies
+pip install -r requirements.txt
+
+### 4.Run the app
+python main.py
+
+
+🏁 Output
+You’ll see:
+
+Live webcam window with eye landmarks
+
+EAR displayed in top-left
+
+Alarm sound when drowsiness is detected
+
